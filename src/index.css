@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* eslint-disable at-rule-no-unknown */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Components */
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent;
+  }
+  
+  .card {
+    @apply bg-dark-accent p-8 rounded-xl transition-all duration-300;
+  }
+  
+  .card-hover {
+    @apply hover:transform hover:-translate-y-1 hover:shadow-2xl hover:shadow-black/30;
+  }
+  
+  .btn {
+    @apply inline-block px-8 py-3 rounded-lg font-semibold text-center transition-all duration-300;
+  }
+  
+  .btn-primary {
+    @apply bg-purple-600 hover:bg-purple-700 text-white;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-purple-600 text-purple-400 hover:bg-purple-600 hover:text-white;
+  }
+  
+  .container {
+    @apply max-w-7xl mx-auto px-6;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Base Styles */
+@layer base {
+  body {
+    @apply bg-dark-primary text-dark-text;
+  }
 }
