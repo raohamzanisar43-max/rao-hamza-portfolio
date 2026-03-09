@@ -16,7 +16,9 @@ const Contact = () => {
               </h3>
               <p className="text-lg mb-8 text-dark-muted">
                 I'm always interested in hearing about new opportunities, exciting projects, or collaborations. 
-                Whether you have a project in mind or just want to connect, feel free to reach out!
+                Whether you have a project in mind, want to discuss this portfolio, or just want to connect, 
+                feel free to reach out! I'm passionate about creating innovative digital solutions and 
+                would love to hear about your ideas.
               </p>
             </div>
 
@@ -40,8 +42,8 @@ const Contact = () => {
                   </svg>
                 </div>
                 <h4 className="text-lg font-semibold text-dark-text mb-2">Email</h4>
-                <a href="mailto:mhamzanisar@example.com" className="text-purple-400 hover:text-purple-300 transition-colors">
-                  mhamzanisar@example.com
+                <a href="mailto:raohamzanisar40@gmail.com" className="text-purple-400 hover:text-purple-300 transition-colors">
+                  raohamzanisar40@gmail.com
                 </a>
               </div>
             </div>
@@ -65,15 +67,17 @@ const Contact = () => {
             </div>
           </div>
 
+          
           <div className="text-center">
             <p className="text-dark-muted mb-4">
               Available for freelance projects, full-time opportunities, and consulting work.
+              Let's discuss how I can contribute to your next project or help bring your ideas to life.
             </p>
             <div className="flex justify-center space-x-4">
               <a href="#projects" className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
                 View My Work
               </a>
-              <a href="raohamzanisar40@gmail.com" className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
+              <a href="mailto:raohamzanisar40@gmail.com" className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
                 Send Message
               </a>
             </div>
